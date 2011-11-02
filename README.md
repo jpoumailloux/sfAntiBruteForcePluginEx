@@ -2,7 +2,7 @@ sfAntiBruteForcePluginEx plugin
 =============================
 
 The `sfAntiBruteForcePluginEx` helps you securing your web application against [brute force attacks](http://en.wikipedia.org/wiki/Brute_force_attack).
-It consists of an improvement of the `sfAntiBruteForcePlugin` by [Grégory Marchal](http://www.symfonic.fr/en/2010/12/sfantibruteforceplugin-project/). While the latter is only able to count the failed attemps per account per day and once the threshold is reached to block later attemps until the end of the current day for this account, the `sfAntiBruteForcePluginEx` plugin allows instead to specify the maximum number of attemps for a given period, for example only allows 5 attemps for a given account every 10 minutes.
+It consists of an improvement of the `sfAntiBruteForcePlugin` by [GrÃ©gory Marchal](http://www.symfonic.fr/en/2010/12/sfantibruteforceplugin-project/). While the latter is only able to count the failed attemps per account per day and once the threshold is reached to block later attemps until the end of the current day for this account, the `sfAntiBruteForcePluginEx` plugin allows instead to specify the maximum number of attemps for a given period, for example only allows 5 attemps for a given account every 10 minutes.
 
 Principle
 ---------
